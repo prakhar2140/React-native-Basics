@@ -1,28 +1,22 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-
-function App() {
-  const isDarkMode = useColorScheme() === 'dark';
-
+import React from 'react';
+import { SafeAreaView, ScrollView } from 'react-native';
+import ElevatedCards from './component/Elevated';
+import Flapcard from './component/Flapcards';
+import Image from './component/Image';
+import Blogs from './component/Blogs';
+import ContactList from './component/ContactList';
+const App = () => {
   return (
-    <View style={styles.container}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <NewAppScreen templateFileName="App.tsx" />
-    </View>
+    <SafeAreaView>
+      <ScrollView>
+        <ElevatedCards />
+        <Flapcard />
+        <Image />
+        <Blogs />
+        <ContactList />
+      </ScrollView>
+    </SafeAreaView>
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
+};
 
 export default App;

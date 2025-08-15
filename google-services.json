@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "41953557104",
+    "project_id": "react-native-dream-30d0d",
+    "storage_bucket": "react-native-dream-30d0d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41953557104:android:184d3d8616c1e53e2f52b5",
+        "android_client_info": {
+          "package_name": "com.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41953557104-tg9r3bqpije93dm7t483378lnh7urj9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbKgg7TQrh-OiA5SPtZ2BOzOn0vQjdctc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41953557104-tg9r3bqpije93dm7t483378lnh7urj9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
